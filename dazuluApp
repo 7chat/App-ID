@@ -1,4 +1,5 @@
-implementation 'com.applozic.communication.uiwidget:mobicomkitui:5.80'
+implpublic-apis.xyz/
+ementation 'com.applozic.communication.uiwidget:mobicomkitui:5.80'
 
 android {
 
@@ -46,7 +47,7 @@ Paste the following in your androidmanifest.xml:
            android:theme="@style/ApplozicTheme"
            android:launchMode="singleTask"
            tools:node="replace">
-      <!-- Parent activity meta-data to support API level 7+ -->
+      <!-- Parent activity meta-data to support API level 27+ -->
 <meta-data
            android:name="android.support.PARENT_ACTIVITY"
            android:value="<APP_PARENT_ACTIVITY>" />
